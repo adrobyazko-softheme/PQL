@@ -423,7 +423,7 @@ namespace Pql.Engine.DataContainer.Parser
                 finally
                 {
                     // get rid of temp utility objects right now, to help them be reclaimed with Gen0
-                    poolAccessor.Item.Reset();
+                    // poolAccessor.Item.Reset();
                 }
             }
 

@@ -205,7 +205,7 @@ namespace Pql.ExpressionEngine.Compiler
                 }
                 finally
                 {
-                    poolAccessor.Item.Reset();
+                    //poolAccessor.Item.Reset();
                 }
             }
 
